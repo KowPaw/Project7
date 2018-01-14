@@ -1,0 +1,25 @@
+body {
+	background: rgb(149, 165, 166);
+}
+body > div:first-of-type {
+	margin-bottom: 200px;
+}
+
+.container {
+	margin: 50px auto;
+}
+
+.row {
+	margin: 20px 0;
+}
+
+#js-resultsTableElement .row:first-of-type .col-xs-5 {
+	color: white;
+	font-size: 20px;
+}
+
+#js-computerResult,
+#js-playerResult {
+	background: #f0ad4e;
+	color: white;
+}
